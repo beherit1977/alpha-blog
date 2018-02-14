@@ -18,7 +18,7 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
     assert_match "sports", response.body
   end
 
-  test "invalid category submission relults in failing" do
+  test "invalid category submission results in failing" do
     sign_in_as(@user, "password")
     get new_category_path
     assert_template 'categories/new'

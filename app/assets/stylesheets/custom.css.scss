@@ -40,6 +40,11 @@ $navbar-default-bg: MidnightBlue;
   background-color: DeepSkyBlue;
 }
 
+// margin problem with checkbox on article new page
+.checkbox-style {
+  padding: 15px;
+}
+
 .article-meta-details {
   border-top: 1px solid #eaeaea;
   margin-top: 15px;
@@ -68,6 +73,17 @@ $navbar-default-bg: MidnightBlue;
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input{
+  width: auto !important;
 }
 
 footer {
